@@ -1,0 +1,71 @@
+
+<!DOCTYPE html> 
+
+<html>
+
+        <head>
+            <HTML lang= "es"> <!SE ESPECIFICA EL IDIOMA EN QUE ESTA ESTRUCTURADA LA PAGINA>        
+            <meta charset= "UTF-8"> <!IDENTIFICA EL DICCIONARIO QUE SE USARA EN EL NAVEGADOR> 
+            <meta name="viewport" content="width=device-width">     
+            <title> ONE QUIROGA</title>   <!SE DEFINE EL TITULO DE LA PAGINA EN PESTAGNA> 
+            <link reel="stylesheet" href="reset.css"> 
+            <link rel="stylesheet" href="principal.css">            
+            <link rel="preconnect" href="https://fonts.googleapis.com">
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+            <link href="https://fonts.googleapis.com/css2?family=Voltaire&display=swap" rel="stylesheet">
+
+
+           
+        </head>   
+<body>
+    <header> <!EL HEADER ALMACENARA EL LOGO Y LOS BOTONES DEL MENU>
+        <h2 class="tituloPrincipal"> ENCRIPTADOR ONE CHALLENGE</h2>
+   </header> 
+   <main class="main">  
+        <form>
+           <legend> HOLA USUARIO, BIENVENIDA/O AL CODIGO SECRETO </legend>
+           <img src="Banner/Mini.jpg" class="imagenMini" alt="ImagenCoder">
+
+           <section class="textoIntroduccion"> Este es un codificador de mensajes, en el cual podras interactuar de manera ludica.
+             Tan solo deberas escribir el texto que deseas, y tu mensaje se encriptara en un codigo secreto. Las Vocales (a,e,i,o,u) seran reemplazadas con las siguientes palabras:
+
+                       <ol type="i" class="listaVocales">
+                         <li>enter</li>
+                         <li>imes</li>
+                         <li>ai</li>
+                         <li>ober</li>
+                         <li>ufat</li>
+                       </ol>
+
+               <p> Respectivamente a las vocales. De esta manera recibiras y enviaras mensajes secretos con tus amigos y o conocidos.</p>
+
+               <p>Cabe enfatizar que, el juego decodificador solo aceptara <strong><em>minusculas</em></strong></p>
+
+           </section>
+
+
+    <!-------------------BOTONES--------------> 
+
+
+  <section class="form_box"></section>
+    <form action="">
+        <label for="input-texto">RECUERDA NO USAR MAYUSCULAS</label>
+        <textarea cols="70" rows="10" name="input-texto" id="input-texto" placeholder="...Escribe lo tuyo"> </textarea>
+        <!input class="text-input" type="text" name="input-texto" id="input-texto" placeholder="ESCRIBE LO TUYO....">
+        <input class="code" type="button" value="Encriptar" id="btn-encriptar">
+        <input class="code" type="button" value="Desencriptar" id="btn-desencriptar">
+
+    </form>
+
+    
+
+    <!-----------------PIE DE PAGINA-------------->
+
+       <footer>            
+            <P class="derechos">&copy; Copy Right Dory Quiroga</P>
+       </footer>
+       <script src="encriptador.js"></script>   
+        </form>
+   </main>
+</body>
+</html>

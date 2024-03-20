@@ -1,0 +1,121 @@
+/*HEADER */
+body{font-family: "Voltaire", sans-serif;}
+
+header{background-image: url(Banner/B-01.jpg);  
+    padding:3px;} 
+
+body{ background-color:black   
+
+}
+
+/*--------------TITULO Y SUBTITULO-------------------*/
+
+.tituloPrincipal{
+    font-size: bold;
+    color: greenyellow;
+    text-align: center;
+}
+
+form legend{
+    
+        text-align: center;
+        color:orange;
+        font-size: bold;
+        margin: 10px;}
+
+/*---------------------IMAGEN MINI-------------------------------*/
+
+.imagenMini{
+    float: left;
+    margin: 40px;
+    width: 120px;
+    box-shadow: 10px 10px 80px rgb(15, 157, 15);
+}
+
+/*-----------------------TEXTO DEL CUERPO ---------------------------------------*/
+
+.textoIntroduccion{
+    color: grey;
+    text-align: justify;
+    margin: 3em 2em 3em;
+    
+}
+
+.listaVocales{
+    color: greenyellow;
+    font-size: bold;
+    font-style: italic;   
+    clear: left; 
+}
+
+textoIntroduccion p{
+    margin: 0 0 2em;
+}
+
+.textoIntroduccion strong{
+    color: greenyellow;
+    font-size: bold;
+
+}
+
+/*-------------------------FORMATO DE LISTA------------------------------------------*/
+
+form label{ /*SE USO EL MISMO ESTILO PARA DOS ETIQUETAS DIFERENTES, SEPARADOS POR UNA COMA*/
+    color:plum;
+    display: block;
+    font-size: 15px;
+    margin: 10px;
+}
+
+form legend{
+    text-align: center;
+    color:orange;
+    font-size: bold;
+    margin: 10px;
+}
+
+
+
+.text-input{
+    padding: 10px;
+    margin: 15px 15px;
+    height: 50%;
+    width: 20%;
+    text-align: center;    
+}
+
+/*----------------BOTONES-----------------------------*/
+
+
+.code{
+    display: block;
+}
+
+.code{
+    
+    width: 10% ;
+    margin: 10px;
+    padding: 10px ;
+    font-size: 15px;
+    font-weight: bold;
+    color: black;
+    background: olive;
+    border-radius: 20px;
+    transition: 2s;
+    cursor: pointer; /*PONE UNA MANITA EN VEZ DE LA FLECHA*/
+
+}
+
+.code:hover{
+    background: greenyellow;
+    transform: scale(1);}
+
+/*------------------CAJA -----------------------------*/
+
+form label{
+    color: orange;
+    font-size: bold;
+    text-align: center;
+}
+
+
