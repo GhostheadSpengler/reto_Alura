@@ -119,3 +119,9 @@ form label{
 }
 
 
+/*-----------------CAJA DE SALIDA---------------------*/
+
+.msg_box{
+    text-align: center;
+    color: greenyellow;
+}
